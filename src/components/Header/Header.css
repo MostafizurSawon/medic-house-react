@@ -1,0 +1,24 @@
+.custom-logo{
+    color: rgb(34, 33, 33);
+    font-size: 18px;
+}
+
+.custom{
+    text-decoration: none;
+    color: rgb(66, 64, 64);
+    margin-left: 10px;
+    font-size: 16px;
+    
+}
+
+.custom:hover{
+    color: red;
+}
+
+.activeStyle{
+ color: rgba(3, 42, 54, 0.733);
+ padding: 5px;
+ border-bottom: 4px solid goldenrod;
+ transition-duration: .3s;
+}
+
