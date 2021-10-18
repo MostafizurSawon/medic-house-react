@@ -14,7 +14,8 @@ const Header = () => {
                     <Navbar.Brand>
                     <Nav.Link> 
                         <NavLink className="customLogo" activeClassName="activeStyleLogo" exact="true" to="/">
-                        <span className="logo-text-first">Safe</span> <span className="logo-text">Life</span>
+                        
+                        <span className="logo-text-first"><i class="fas fa-house-damage"></i> Medic</span> <span className="logo-text">House</span>
                               </NavLink>
                         </Nav.Link>
                         </Navbar.Brand>
@@ -45,16 +46,13 @@ const Header = () => {
                         {
                             user.email ?
                             <Nav.Link>
-                        <NavLink className="custom-logout" activeClassName="activeStyle" to="/login" onClick={logOut}>log out
+                        <NavLink className="custom-logout" activeClassName="activeStyle" to="/register" onClick={logOut}>log out
                         </NavLink>
                         </Nav.Link>
                         :
                         <Nav.Link>
-                        <NavLink className="custom" activeClassName="activeStyle" to="/login">
-                                  Login 
-                        </NavLink>
-                        <NavLink className="custom" activeClassName="activeStyle" to="/register">
-                                  Register 
+                        <NavLink className="custom d-flex align-items-center " activeClassName="activeStyle" to="/register">
+                        <i class="fas fa-user-plus me-2"></i> Register 
                         </NavLink>
                         </Nav.Link>}
 

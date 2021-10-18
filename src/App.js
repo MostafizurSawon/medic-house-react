@@ -10,10 +10,12 @@ import Register from './components/LoginAndRegistration/Register';
 import AuthProvider from './context/AuthProvider';
 import ServiceDetails from './components/ServiceDetails/ServiceDetails';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import swal from 'sweetalert';
+import './App.css'
 
 function App() {
   return (
-    <div>
+    <div className="container-fluid custom-default">
       <AuthProvider>
       <Router>
         <Header></Header>

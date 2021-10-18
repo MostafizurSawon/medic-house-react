@@ -1,0 +1,30 @@
+.custom-banner{
+    background-image: url(../../../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-container{
+    height: 600px;
+}
+
+.banner-h1{
+    font-size: 70px;
+}
+  .custom-middle{
+      color: rgb(233, 43, 43);
+      font-weight: 700;
+  }
+
+  .custom-middle:hover{
+      color: red;
+  }
+
+  h4{
+      line-height: 30px;
+  }
+
+  .custom-btn{
+      font-weight: 700;
+      color: rgb(56, 54, 54);
+  }

@@ -1,0 +1,44 @@
+[
+    {
+        "key": "1",
+        "price": 23.99,
+        "name": "Healthy Meal Plan",
+        "description": "How we dream about our future.",
+        "img": "./images/lunch/lunch1.png"
+    },
+    {
+        "key": "2",
+        "price": 9.99,
+        "name": "Fried Chicken Bento",
+        "description": "How we dream about our future.",
+        "img": "./images/lunch/lunch2.png"
+    },
+    {
+        "key": "3",
+        "price": 6.99,
+        "name": "Tarragon-Rabbed-Salmon",
+        "description": "How we dream about our future.",
+        "img": "./images/lunch/lunch1.png"
+    },
+    {
+        "key": "4",
+        "price": 8.99,
+        "name": "Indian Lunch",
+        "description": "How we dream about our future.",
+        "img": "./images/lunch/lunch4.png"
+    },
+    {
+        "key": "5",
+        "price": 15.99,
+        "name": "Beef Steak",
+        "description": "How we dream about our future.",
+        "img": "./images/lunch/lunch5.png"
+    },
+    {
+        "key": "6",
+        "price": 7.99,
+        "name": "Honey-Soy-Glazed Salmon",
+        "description": "How we dream about our future.",
+        "img": "./images/lunch/lunch6.png"
+    }
+]
