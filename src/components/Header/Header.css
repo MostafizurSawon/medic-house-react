@@ -1,8 +1,44 @@
-.custom-logo{
-    color: rgb(34, 33, 33);
+.activeStyleLogo{
     font-size: 18px;
+    padding: 5px;
+    border-bottom: 4px solid rgb(11, 192, 26);
+    transition-duration: .3s;
 }
 
+
+.logo-text-first{
+    color: rgb(5, 105, 5);
+    font-size: 19px;
+    font-weight: 800;
+}
+
+.logo-text-first:hover{
+    color: green;
+}
+
+.logo-text{
+    font-size: 19px;
+    color: goldenrod;
+    font-weight: 700;
+}
+
+.logo-text:hover{
+    color: orange;
+}
+
+.customLogo{
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.customLogo:hover{
+    border-top: 4px solid rgb(11, 192, 26);
+    border-radius: 3px;
+    padding: 5px;
+    transition-duration: .2s;
+    
+}
 .custom{
     text-decoration: none;
     color: rgb(66, 64, 64);
@@ -13,12 +49,34 @@
 
 .custom:hover{
     color: red;
+    border-bottom: 2px solid rgb(11, 192, 26);
+    padding-bottom: 5px;
+    border-radius: 3px;
+}
+
+.custom-logout{
+    text-decoration: none;
+    color: rgb(245, 243, 243);
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgb(231, 39, 39);
+    border: 1px solid rgba(14, 178, 228, 0.795);
+    border-radius: 7px;
+    padding: 8px 20px;
+}
+
+.custom-logout:hover{
+    color:rgb(245, 243, 243);
+    background-color: rgb(250, 52, 45);
+    
 }
 
 .activeStyle{
  color: rgba(3, 42, 54, 0.733);
  padding: 5px;
  border-bottom: 4px solid goldenrod;
+ border-radius: px;
  transition-duration: .3s;
 }
 

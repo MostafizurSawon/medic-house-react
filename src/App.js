@@ -8,6 +8,8 @@ import Footer from './components/Footer/Footer';
 import NotFound from './components/NotFound/NotFound';
 import Register from './components/LoginAndRegistration/Register';
 import AuthProvider from './context/AuthProvider';
+import ServiceDetails from './components/ServiceDetails/ServiceDetails';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
@@ -22,9 +24,9 @@ function App() {
           <Route path="/home">
             <Home></Home>
           </Route>
-          {/* <Route path="/review">
-            <OrderReview></OrderReview>
-          </Route> */}
+          <PrivateRoute path="/services">
+            <ServiceDetails></ServiceDetails>
+          </PrivateRoute>
           {/* <PrivateRoute path="/inventory">
             <Inventory></Inventory>
           </PrivateRoute> */}
