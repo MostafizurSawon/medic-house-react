@@ -41,11 +41,18 @@ const Header = () => {
                         </NavLink>
                         </Nav.Link>
 
-                        {user.email && <Nav.Link><div className="d-flex align-items-center justify-content-center mx-auto"><Row>
-                            <Col sm={12} className="imageWidth">
-                                <Image className="header-pic-size" src={user?.photoURL} roundedCircle />
-                            </Col></Row>
-                             <div className="header-pic ms-2" style={{ color: 'green', fontWeight: 'bold' }}> {user?.displayName} </div></div></Nav.Link> }
+                        {user.email && 
+                        <Nav.Link>
+                            <div>
+                            <Row className="d-flex align-items-center">
+                            <Col sm={2}>
+                                <Image className="header-pic-size ms-2" src={user?.photoURL} roundedCircle />
+                            </Col>
+                            <Col sm={9} className="header-pic ms-2" style={{ color: 'green', fontWeight: 'bold' }}> {user?.displayName}
+                            </Col>
+                            </Row>
+                            </div>
+                        </Nav.Link> }
                         {
                             user.email ?
                         <Nav.Link>
