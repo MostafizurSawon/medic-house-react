@@ -1,8 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Row, Col } from 'react-bootstrap';
+import { useParams } from 'react-router';
 import './About.css';
 
 const About = () => {
+    const { serviceId } = useParams();
+    useEffect(()=>{
+        fetch('./services.json')
+        .then(response => response.json())
+        .then(data => console.log(data))
+        .catch(err => {
+            console.log("Error Reading data " + err);
+          });
+    }, [])
     return (
         <div>
             <Row>

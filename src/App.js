@@ -15,6 +15,7 @@ import './App.css'
 import Doctors from './components/Doctors/Doctors';
 import About from './components/About/About';
 import ServiceFull from './components/ServiceFull/ServiceFull';
+import Hello from './components/Hello/Hello';
 
 function App() {
   return (
@@ -38,18 +39,10 @@ function App() {
           <PrivateRoute path="/service">
             <ServiceFull></ServiceFull>
           </PrivateRoute>
-          <Route path="/services/:serviceId">
-              <ServiceDetails></ServiceDetails>
+          <Route path="/details/:serviceId">
+              <Hello></Hello>
           </Route>
-          {/* <PrivateRoute path="/inventory">
-            <Inventory></Inventory>
-          </PrivateRoute> */}
-          {/* <PrivateRoute path="/shipping">
-            <Shipping></Shipping>
-          </PrivateRoute> */}
-          {/* <PrivateRoute path="/placeorder">
-            <PlaceOrder></PlaceOrder>
-          </PrivateRoute> */}
+          
           <Route path="/login">
             <Login></Login>
           </Route>

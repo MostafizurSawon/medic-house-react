@@ -18,7 +18,7 @@ const ServiceHome = (props) => {
             <b>Charge: $ {price}</b> 
             </Card.Text>
         </Card.Body>
-        <Link to={`/services/${key}`}>
+        <Link to={`/details/${key}`}>
             <button  className="m-2 custom-btnn">  Details <i className="fas fa-chevron-circle-right ms-3"></i></button>
         </Link>
         </Card>
