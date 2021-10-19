@@ -4,7 +4,7 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <Row className="ps-5 footer pt-5">
+        <Row className=" footer pt-5">
             <Col sm={4}>
             <h1 className="d-flex align-items-center text-light">
             <i className="fas fa-heartbeat me-2"></i>Medic House</h1>

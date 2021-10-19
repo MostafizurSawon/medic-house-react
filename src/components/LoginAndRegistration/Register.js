@@ -60,7 +60,7 @@ const handleGoogleLogin = () => {
 
   const handleRegistration = e => {
     e.preventDefault();
-    console.log(email, password);
+    console.log(name, email, password);
     if (password.length < 6) {
       setError('Password Must be at least 6 characters long.')
       return;
@@ -160,7 +160,7 @@ const handleGoogleLogin = () => {
               <div className="row mb-3 text-danger">{error}</div>
               <div className="mx-auto d-flex justify-content-around">
               <button type="submit" className="btn btn-primary">
-                {isLogin ? 'Login' : 'Register'}
+                {isLogin ? 'Login' : 'Register and Login'}
               </button>
               <button type="button" onClick={handleResetPassword} className="btn btn-danger btn-sm ms-3">Forget Password?</button>
               </div>

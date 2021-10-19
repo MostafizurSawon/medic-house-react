@@ -80,3 +80,8 @@
  transition-duration: .3s;
 }
 
+
+.header-pic-size{
+    height: 40px;
+    width: 40px;
+}

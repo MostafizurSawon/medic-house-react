@@ -31,10 +31,6 @@ const useFirebase = () => {
         return () => unsubscribe;
     }, []);
 
-
-
-  
-
     return {
         user,
         signInUsingGoogle,

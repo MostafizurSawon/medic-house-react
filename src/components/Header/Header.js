@@ -1,7 +1,6 @@
 import React from 'react';
-import { Button, Container, FormControl, InputGroup, Nav, Navbar } from 'react-bootstrap';
-import { Link, NavLink } from 'react-router-dom';
-// import { HashLink } from 'react-router-hash-link';
+import { Button, Col, Container, Image, Nav, Navbar, Row } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 import './Header.css';
 import useAuth from './../../hooks/useAuth';
 
@@ -42,11 +41,15 @@ const Header = () => {
                         </NavLink>
                         </Nav.Link>
 
-                        {user.email && <span style={{ color: 'green' }}>Hello {user.displayName} </span>}
+                        {user.email && <Nav.Link><div className="d-flex align-items-center justify-content-center mx-auto"><Row>
+                            <Col sm={12} className="imageWidth">
+                                <Image className="header-pic-size" src={user?.photoURL} roundedCircle />
+                            </Col></Row>
+                             <div className="header-pic ms-2" style={{ color: 'green', fontWeight: 'bold' }}> {user?.displayName} </div></div></Nav.Link> }
                         {
                             user.email ?
-                            <Nav.Link>
-                        <NavLink className="custom-logout" activeClassName="activeStyle" to="/register" onClick={logOut}>log out
+                        <Nav.Link>
+                        <NavLink className="custom-logout d-flex align-items-center" activeClassName="activeStyle" to="/register" onClick={logOut}>log out <i className="fas fa-sign-out-alt ms-2"></i>
                         </NavLink>
                         </Nav.Link>
                         :
