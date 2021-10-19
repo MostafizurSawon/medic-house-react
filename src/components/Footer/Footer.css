@@ -1,0 +1,20 @@
+.footer{
+    background-color: rgb(37, 35, 35);
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: greenyellow;
+}
+
+
+
+.fab:hover{
+    color: blue;
+    font-size: 17px;
+}

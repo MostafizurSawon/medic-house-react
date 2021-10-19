@@ -12,6 +12,9 @@ import ServiceDetails from './components/ServiceDetails/ServiceDetails';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import swal from 'sweetalert';
 import './App.css'
+import Doctors from './components/Doctors/Doctors';
+import About from './components/About/About';
+import ServiceFull from './components/ServiceFull/ServiceFull';
 
 function App() {
   return (
@@ -26,9 +29,18 @@ function App() {
           <Route path="/home">
             <Home></Home>
           </Route>
-          <PrivateRoute path="/services">
-            <ServiceDetails></ServiceDetails>
+          <Route path="/doctors">
+            <Doctors></Doctors>
+          </Route>
+          <Route path="/about">
+            <About></About>
+          </Route>
+          <PrivateRoute path="/service">
+            <ServiceFull></ServiceFull>
           </PrivateRoute>
+          <Route path="/services/:serviceId">
+              <ServiceDetails></ServiceDetails>
+          </Route>
           {/* <PrivateRoute path="/inventory">
             <Inventory></Inventory>
           </PrivateRoute> */}
