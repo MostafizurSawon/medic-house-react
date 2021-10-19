@@ -86,6 +86,9 @@ const handleGoogleLogin = () => {
         console.log(user);
         setError('');
       })
+      .then(result =>{
+        history.push(redirect_uri)
+       })
       .catch(error => {
         setError(error.message);
       })
