@@ -29,45 +29,6 @@ const About = () => {
                 </Col>
             </Row>
 
-            <Row className="bg-light g-4 my-5">
-                <h1 className="doctor-h1">We have specialists on every sectors.<h2 className="about-border"></h2></h1>
-                <Col sm={2}>
-                <Card className="custom-card custom-about border-0 text-dark">
-                <Card.Img className="w-100 mx-auto" variant="top" fluid src="https://image.freepik.com/free-vector/lungs-concept-illustration_114360-6794.jpg" />
-                
-                </Card>
-                </Col>
-                <Col sm={2}>
-                <Card className="custom-card custom-about border-0 text-dark">
-                <Card.Img className="w-100 mx-auto" variant="top" fluid src="https://image.flaticon.com/icons/png/128/1226/1226216.png" />
-                
-                </Card>
-                </Col>
-                
-                <Col sm={2}>
-                <Card className="custom-card custom-about border-0 text-dark">
-                <Card.Img className="w-100 mx-auto" variant="top" fluid src="https://image.flaticon.com/icons/png/512/1216/1216359.png" />
-                </Card>
-                </Col>
-                <Col sm={2}>
-                <Card className="custom-card custom-about border-0 text-dark">
-                <Card.Img className="w-50 pt-5 mx-auto" variant="top" fluid src="https://image.flaticon.com/icons/png/512/1253/1253247.png" />
-                
-                </Card>
-                </Col>
-                <Col sm={2}>
-                <Card className="custom-card custom-about border-0 text-dark">
-                <Card.Img className="w-100 mx-auto" variant="top" fluid src="https://image.freepik.com/free-vector/heart_53876-25531.jpg" />
-                </Card>
-                </Col>
-                <Col sm={2}>
-                <Card className="custom-card custom-about border-0 text-dark">
-                <Card.Img className="w-100 mx-auto" variant="top" fluid src="https://image.freepik.com/free-vector/kidney-bean-hand-drawn-cartoon-art-illustration_56104-861.jpg" />
-               
-                </Card>
-                </Col>
-            </Row>
-
 
             {/* History section starts */}
             <Row className="my-5">

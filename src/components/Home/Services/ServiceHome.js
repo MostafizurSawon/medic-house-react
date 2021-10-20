@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const ServiceHome = (props) => {
     const {name, description, price, img, key} = props.service;
     return (
-        <Col>
+        <Col sm={12} md={6} lg={4}>
         <Card className="custom-card border-0 ">
         <Card.Img className="custom-img mx-auto p-3" variant="top" fluid src={img} />
         <Card.Body className='mx-auto'>

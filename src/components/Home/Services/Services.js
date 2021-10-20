@@ -25,7 +25,7 @@ const Services = () => {
                         <h6>Trust us with our service</h6>
                     </Col>
                 </Col>
-                <Col sm={4} className="d-flex justify-content-center align-items-center">
+                <Col sm={4} className="d-flex justify-content-center my-5 align-items-center">
                     <Col sm={2} >
                     <img className="w-100" src="https://image.flaticon.com/icons/png/128/1248/1248847.png" alt="" />
                     </Col>
