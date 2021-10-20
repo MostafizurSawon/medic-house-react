@@ -3,11 +3,19 @@
     color: white;
 }
 
+.footer-border{
+    border-bottom: 1px solid white;
+    width: 10%;
+}
+
 a{
     text-decoration: none;
     color: white;
 }
 
+.footer-icon:hover{
+    color: rgb(77, 226, 17);
+}
 a:hover{
     color: greenyellow;
 }

@@ -1,0 +1,20 @@
+.doctor-bg{
+    background-image: url(https://img.freepik.com/free-vector/group-doctors-standing-hospital-building-team-practitioners-ambulance-car_74855-14034.jpg?size=338&ext=jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    border-radius: 10px;
+}
+
+.doctor-h1{
+    font-weight: 700;
+    font-size: 4rem;
+    color: white;
+  text-shadow:
+            3px 3px 0 #000,
+            -1px -1px 0 #000,  
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+                1px 1px 0 #000;
+}

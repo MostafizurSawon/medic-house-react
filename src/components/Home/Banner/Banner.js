@@ -20,18 +20,19 @@ const Banner = () => {
             </Col>
             <Col sm={7} className=" banner-container d-flex align-items-center">
                 <div>
-                    <h4>You Have To Care For Your Body</h4>
+                    <h4 className="banner-h4">Welcome to Medic House</h4>
                     <h1 className="banner-h1 my-3"><span className="custom-middle">Trust the specialist, </span> <br /> We are Medic House </h1>
                     <h4 className="mb-4"> You trust us and we take care of your body, <br />
                     Healthy body will bring you much more happiness </h4>
-                    <Button className="custom-btn"variant="outline-success">Documents</Button>
+                    <button  className=" custom-btnn"> Documents</button>
+                    {/* <Button className="custom-btn"variant="outline-success">Documents</Button> */}
                 </div>
                
                
             </Col>
         </Row>
         <Row>
-        <Col sm={6}>
+        <Col sm={6} >
                 <img src="https://image.freepik.com/free-vector/medical-service-logos-vector-set_53876-62796.jpg" className="img-fluid" alt="" />
 
             </Col>

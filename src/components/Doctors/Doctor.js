@@ -10,7 +10,6 @@ const Doctor = (props) => {
         <Row>
             <Col sm={7} className="d-flex justify-content-center align-items-center">
             <Image className="p-3" src={img} fluid />
-                {/* <img src={img} alt="" className="img-fluid" /> */}
             </Col>
             <Col className="my-3 d-flex align-items-center" sm={5}>
                 <div className="">
@@ -22,13 +21,6 @@ const Doctor = (props) => {
                 </div>
             </Col>
         </Row>
-        {/* <Card.Img className="custom-img mx-auto p-3" variant="top" fluid src={img} />
-        <Card.Body className='mx-auto'>
-            <Card.Title>{name}</Card.Title>
-            <Card.Text>
-            {experiences}
-            </Card.Text>
-        </Card.Body> */}
         </Card>
         </Col>
     );
